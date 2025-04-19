@@ -74,6 +74,12 @@ header p {
   white-space: nowrap;
 }
 
+.navbar a {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 main {
   padding: 2rem;
   max-width: 800px;
@@ -129,5 +135,12 @@ html{
   }
   main {
     padding: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar a {
+    font-size: 14px;
+    padding: 8px;
   }
 }
