@@ -62,18 +62,6 @@ header p {
   text-decoration: underline;
 }
 
-.navbar {
-  display: flex;
-  flex-wrap: wrap;
-  overflow: hidden;
-}
-
-.navbar {
-  display: flex;
-  overflow-x: auto;
-  white-space: nowrap;
-}
-
 main {
   padding: 2rem;
   max-width: 800px;
